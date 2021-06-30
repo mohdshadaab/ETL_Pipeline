@@ -3,11 +3,11 @@ The given file can be run after initializing airflow to the directory, running w
 
 `airflow db init`
 
-`airflow users create` \
- `--username admin` \
- `--firstname YOUR_FIRSTNAME` \
- `--lastname YOUR_LASTNAME` \
- `--role Admin` \
+`airflow users create \` \
+ `--username admin \` \
+ `--firstname YOUR_FIRSTNAME \` \
+ `--lastname YOUR_LASTNAME \` \
+ `--role Admin \` \
  `--email name@example.org` 
 
 `airflow webserver --port 8080` 
