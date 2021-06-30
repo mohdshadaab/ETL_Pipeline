@@ -8,7 +8,7 @@ airflow users create\
  --firstname YOUR_FIRSTNAME\
  --lastname YOUR_LASTNAME\
  --role Admin\
- --email mohdshadaab27@gmail.com
+ --email name@example.org
 
 airflow webserver --port 8080
 
