@@ -1,4 +1,4 @@
-#Step 1
+# Step 1
 The given file can be run after initializing airflow to the directory, running web server and airflow scheduler
 
 airflow db init
@@ -17,7 +17,7 @@ airflow scheduler
 
 The data_gen.py handles the creation and storage of jsondata in ./data folder in the format of data/year/month/day/ , the data_trans.py writes the json data to the database and the dag.py handles the scheduling/running at specified intervals.
 
-#Step 2
+# Step 2
 
 Install neo4j desktop from https://neo4j.com/download/
 
