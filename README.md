@@ -28,6 +28,6 @@ To use APOC procedure for loading JSON file:\
 	2. From neo4j desktop select the db, and go to menu(three dots)-> open folder-> DBMS\
 	3. In the DBMS folder go to conf and create 'apoc.conf' file.\
 	4. Write the following lines in 'apoc.conf' :\
-		apoc.import.file.enabled=true\
-		apoc.import.file.use_neo4j_config=false\
+		``apoc.import.file.enabled=true\
+		apoc.import.file.use_neo4j_config=false\``
 	5. Restart the DB.
