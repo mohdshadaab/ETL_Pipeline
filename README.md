@@ -8,9 +8,9 @@ The given file can be run after initializing airflow to the directory, running w
  `--firstname YOUR_FIRSTNAME` \
  `--lastname YOUR_LASTNAME` \
  `--role Admin` \
- `--email name@example.org` \
+ `--email name@example.org` 
 
-`airflow webserver --port 8080` \
+`airflow webserver --port 8080` 
 
 Run this command in a different terminal \
 `airflow scheduler`
