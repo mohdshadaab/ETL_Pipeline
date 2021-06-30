@@ -3,16 +3,16 @@ The given file can be run after initializing airflow to the directory, running w
 
 `airflow db init`
 
-`airflow users create \
- --username admin \
- --firstname YOUR_FIRSTNAME \
- --lastname YOUR_LASTNAME \
- --role Admin \
- --email name@example.org`
+`airflow users create` \
+ `--username admin` \
+ `--firstname YOUR_FIRSTNAME` \
+ `--lastname YOUR_LASTNAME` \
+ `--role Admin` \
+ `--email name@example.org` \
 
-`airflow webserver --port 8080`
+`airflow webserver --port 8080` \
 
-Run this command in a different terminal
+Run this command in a different terminal \
 `airflow scheduler`
 
 The data_gen.py handles the creation and storage of jsondata in ./data folder in the format of data/year/month/day/ , the data_trans.py writes the json data to the database and the dag.py handles the scheduling/running at specified intervals.
