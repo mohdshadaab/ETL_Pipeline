@@ -29,5 +29,5 @@ To use APOC procedure for loading JSON file:\
 	3. In the DBMS folder go to conf and create 'apoc.conf' file.\
 	4. Write the following lines in 'apoc.conf' :\
 	`apoc.import.file.enabled=true` \
-	`apoc.import.file.use_neo4j_config=false`
+	`apoc.import.file.use_neo4j_config=false` \
 	5. Restart the DB.
